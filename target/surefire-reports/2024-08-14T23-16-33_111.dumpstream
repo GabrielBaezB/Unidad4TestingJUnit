@@ -1,4 +1,4 @@
-# Created at 2024-08-14T22:33:52.765
+# Created at 2024-08-14T23:16:33.559
 Boot Manifest-JAR contains absolute paths in classpath 'D:\DevOps\Unidad 4\proyecto\my-new-app\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 
