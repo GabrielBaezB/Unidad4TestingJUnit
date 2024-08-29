@@ -30,7 +30,7 @@ public class SeleniumJenkTest {
             // Configura las opciones del navegador aquí si es necesario
 
             // Reemplaza <selenium-grid-url> con la URL de tu Selenium Grid
-            driver = new RemoteWebDriver(new URL("http://172.20.10.3:4444/wd/hub"), options);
+            driver = new RemoteWebDriver(new URL("http://192.168.147.189:4444/wd/hub"), options);
             
             // Inicializa WebDriverWait
             wait = new WebDriverWait(driver, Duration.ofSeconds(20));

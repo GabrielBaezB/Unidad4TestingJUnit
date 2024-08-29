@@ -25,7 +25,7 @@ public class SeleniumGridTest {
             capabilities.setBrowserName("firefox"); // O "firefox", etc.
 
             // Configura la URL del Hub
-            URL hubUrl = new URL("http://localhost:4444/wd/hub");
+            URL hubUrl = new URL("http://192.168.147.189:4444/wd/hub");
 
             // Crea una instancia del RemoteWebDriver apuntando al Hub
             driver = new RemoteWebDriver(hubUrl, capabilities);
