@@ -1,4 +1,5 @@
-com/example/CalculatorTest.class
-com/example/AdvancedCalculatorTest.class
-com/example/CalculatorTestSuite.class
-com/example/SeleniumJUnitTest.class
+com\example\CalculatorTestSuite.class
+com\example\AdvancedCalculatorTest.class
+com\example\CalculatorTest.class
+com\example\SeleniumGridTest.class
+com\example\SeleniumJUnitTest.class
