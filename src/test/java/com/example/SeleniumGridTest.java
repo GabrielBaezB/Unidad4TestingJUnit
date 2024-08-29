@@ -22,7 +22,7 @@ public class SeleniumGridTest {
         try {
             // Configura las capacidades del navegador
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setBrowserName("firefox"); // O "firefox", etc.
+            capabilities.setBrowserName("chrome"); // O "firefox", etc.
 
             // Configura la URL del Hub
             URL hubUrl = new URL("http://192.168.147.189:4444/wd/hub");
