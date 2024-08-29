@@ -73,6 +73,7 @@
                         <include>**/*Test.java</include>
                         <include>**/*TestSuite.java</include>
                     </includes>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                 </configuration>
             </plugin>
 
