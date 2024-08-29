@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.SeleniumJenkTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.432 s - in com.example.SeleniumJenkTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.153 s - in com.example.SeleniumJenkTest

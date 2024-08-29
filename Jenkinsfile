@@ -10,8 +10,14 @@ pipeline {
         stage('Build and Test') {
             steps {
                 script {
-                    // Ejecuta pruebas con Maven
                     sh 'mvn clean test'
+                }
+            }
+        }
+        stage('List Files') {
+            steps {
+                script {
+                    sh 'ls -R target/surefire-reports'
                 }
             }
         }

@@ -22,7 +22,7 @@ public class SeleniumJUnitTest {
     @BeforeEach
     public void setUp() {
         // Configura el driver de Chrome
-        System.setProperty("webdriver.chrome.driver", "D:/DevOps/Unidad 4/test/Unidad4TestingJUnit/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
         // Descomenta si quieres ejecutar en modo headless
         // options.addArguments("--headless");
