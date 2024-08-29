@@ -25,11 +25,11 @@ public class SeleniumJUnitTest {
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
         // Descomenta si quieres ejecutar en modo headless
-        // options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         
-        WebDriver driver = new ChromeDriver(options);
+        driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Inicializa WebDriverWait con el driver
     }
 
